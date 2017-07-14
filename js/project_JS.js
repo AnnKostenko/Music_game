@@ -2,7 +2,7 @@ var btnList = document.querySelectorAll(".element"), musicVar = "", btn = "", bt
 window.addEventListener("keypress", function (event) {
 	switch (event.keyCode) {
 	case 81:
-		musicVar = 'Sound/guitar_A2_very-long_forte_normal.mp3';
+		musicVar = '../Sound/guitar_A2_very-long_forte_normal.mp3';
 		btn = "q";
 		bgColor("lightpink");
 		break;
