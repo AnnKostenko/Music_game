@@ -1,0 +1,125 @@
+/*Подключение шрифтов*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Класс запускается при нажатии на кнопку "Стоп"*/
+
+.bgImg {
+	background-image: url(/img/sayagata-400px.png);
+}
+
+
+/*Обертка окна и клавиатуры*/
+
+#windowAndkeyboard {
+	max-width: 1024px;
+	min-width: 100px;
+	margin: 6% auto;
+}
+
+
+/*Обертка клавиатуры*/
+
+#keyboard {
+	margin: 0;
+	padding: 25px 0 25px;
+}
+
+
+/*Ряды кнопок*/
+
+#firstLine,
+#secondLine,
+#thirdLine {
+	text-align: center;
+}
+
+
+/*Сами кнопки*/
+
+#firstLine > div,
+#secondLine > div,
+#thirdLine > div {
+	display: inline-block;
+	font-size: 100px;
+	border: 1px solid grey;
+	width: 92px;
+	text-align: center;
+	cursor: pointer;
+	margin: 2px;
+	border-radius: 3px;
+	background-color: cornflowerblue;
+	text-shadow: 1px 1px white;
+	font-family: sans-serif;
+	cursor: default;
+}
+
+
+/*Вид кнопок "Play", "Stop", "Начать запись"*/
+
+button {
+	margin-top: 25px;
+	margin-left: 17%;
+	width: 100px;
+	font-family: sans-serif;
+	font-size: 200%;
+	cursor: pointer;
+	background-color: lavender;
+	color: #0B2349;
+}
+
+
+/*Параметры изображений*/
+
+img#img1 {
+	position: absolute;
+	top: 73%;
+	width: 30%;
+	left: 85%;
+}
+
+img {
+	width: 20%;
+	margin-top: -18%;
+	margin-left: -15%;
+	position: absolute;
+	left: 200px;
+	top: 470px;
+}
+
+
+/*Параметры логотипа*/
+
+img#logo {
+	width: 8%;
+	margin-top: -34%;
+	padding: 2px;
+}
+
+
+/*Характеристика названия игры*/
+
+h1 {
+	position: absolute;
+	font-family: 'Lobster', cursive;
+	font-size: 55px;
+	top: 20px;
+	left: 125px;
+	text-transform: uppercase;
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+}
+
+
+/*Кнопки при наведении*/
+
+button:hover {
+	background-color: gainsboro;
+}
